@@ -7,7 +7,7 @@ public class TestDemo2 {
         Thread thread = new Thread(tr);
         thread.setDaemon(true); //设置守护线程
         thread.start(); //开始执行分进程
-        Thread.sleep(2000);
+        Thread.sleep(2001);
     }
 
 }
